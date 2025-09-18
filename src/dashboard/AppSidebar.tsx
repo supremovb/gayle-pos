@@ -38,7 +38,7 @@ import {
   Payment as PaymentIcon,
   MonetizationOn as MonetizationOnIcon,
 } from "@mui/icons-material";
-import logo from '../assets/logos/boodle-bilao.jpg'; // Use military logo
+import logo from '../assets/logos/gayles-logo.png'; // Use military logo
 import { useNavigate } from "react-router-dom";
 
 // --- Military Theme (matches LoginForm.tsx) ---
@@ -292,7 +292,7 @@ const AppSidebar: React.FC<AppSidebarProps> = ({
               <Box
                 component="img"
                 src={logo}
-                alt="BOODLE Logo"
+                alt="GAYLE Logo"
                 sx={{
                   height: 36,
                   mr: 1,
@@ -313,7 +313,7 @@ const AppSidebar: React.FC<AppSidebarProps> = ({
                   ml: 1,
                   textShadow: "0 2px 8px rgba(0,0,0,0.15)",
                 }}>
-                BOODLE
+                GAYLE
               </Typography>
             </Toolbar>
           </AppBar>
@@ -364,7 +364,7 @@ const AppSidebar: React.FC<AppSidebarProps> = ({
               <Box
                 component="img"
                 src={logo}
-                alt="BOODLE Logo"
+                alt="GAYLE Logo"
                 sx={{
                   height: 44,
                   width: open ? "auto" : 44,
@@ -386,7 +386,7 @@ const AppSidebar: React.FC<AppSidebarProps> = ({
                   fontFamily: theme.typography.h4.fontFamily,
                   textShadow: "0 2px 8px rgba(0,0,0,0.10)",
                 }}>
-                  BOODLE
+                  GAYLE
                 </Typography>
               )}
             </Box>
